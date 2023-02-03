@@ -4,9 +4,9 @@ Optec, Inc. offers several different models of FilterWheel for the laboratory an
 
 ## IFW / IFW2
 
-The IFW and IFW2 use a serial protocol. This is included in the manual. There is also a Python class available here (<https://github.com/OptecInc/fw-python>) for reference.
+The IFW and IFW2 use a serial protocol. This is included in the [IFW-Serial.md](IFW-Serial.md) file. There is also a Python class available here (<https://github.com/OptecInc/fw-python>) for reference.
 
-Note that on linux you often need to give permission to access COM Ports. This is often achieved using the dialout group.
+Note that on linux you often need to give permission to access Serial Ports. This is often achieved using the dialout group.
 
 ## HSFW
 
