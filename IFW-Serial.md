@@ -10,7 +10,7 @@ Return: !
 
 Function: This command initializes the serial connection the PC and the IFW.
 WSMODE causes the IFW program to enter into the main serial loop which checks
-for additional inputs along the RJ-12 connector. A successful return from this
+for additional inputs along the USB-CDC (IFW2) or Serial connector (IFW or IFW2 with cable adapter). A successful return from this
 command is required before the IFW will accept any other user commands,
 
 Warning: If not returned repeat WSMODE. There is a possibility that the command will timeout. This is also true if the wheel is being operated manually when the
